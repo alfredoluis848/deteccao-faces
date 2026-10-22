@@ -1,0 +1,30 @@
+# Ambientes e caches locais
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Dados, modelos e resultados gerados: obter novamente pelo README
+/data/
+/models/
+/runs/
+/reports/
+*.keras
+*.h5
+*.onnx
+
+# Credenciais e configurações locais
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Pacotes temporários usados na revisão
+/revisao-projeto.tar.gz
+/reconhecimento-facial-repositorio.zip

@@ -1,0 +1,40 @@
+{
+  "classes": [
+    "Ariel_Sharon",
+    "Colin_Powell",
+    "Donald_Rumsfeld",
+    "George_W_Bush",
+    "Gerhard_Schroeder",
+    "Hugo_Chavez",
+    "Tony_Blair"
+  ],
+  "contagens_treino": [
+    46,
+    144,
+    75,
+    305,
+    65,
+    35,
+    88
+  ],
+  "pesos_classes": {
+    "0": 2.3540372670807455,
+    "1": 0.751984126984127,
+    "2": 1.4438095238095239,
+    "3": 0.3550351288056206,
+    "4": 1.665934065934066,
+    "5": 3.093877551020408,
+    "6": 1.2305194805194806
+  },
+  "tamanho": 224,
+  "lote": 16,
+  "epocas_maximas": 20,
+  "semente": 42,
+  "taxa_aprendizado": 0.001,
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "base": "MobileNetV2",
+  "pesos_base": "imagenet",
+  "base_congelada": true,
+  "entrada": "RGB com valores entre 0 e 255"
+}
